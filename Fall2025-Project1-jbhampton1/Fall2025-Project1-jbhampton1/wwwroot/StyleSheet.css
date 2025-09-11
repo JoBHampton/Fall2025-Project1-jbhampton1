@@ -1,0 +1,12 @@
+﻿body {
+    background-color: coral;
+    text-align: center;
+}
+
+h1 {
+    font: bold;
+}
+
+img {
+    border-radius: 15px;
+}
