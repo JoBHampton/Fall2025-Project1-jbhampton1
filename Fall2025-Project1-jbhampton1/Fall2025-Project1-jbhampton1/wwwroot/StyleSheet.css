@@ -4,9 +4,62 @@
 }
 
 h1 {
+    color:antiquewhite;
     font: bold;
+    font-family: 'Goudy Stout';
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
 img {
     border-radius: 15px;
 }
+
+#Actors {
+    display: inline-block; 
+    text-align: left; 
+    list-style-position: outside; 
+    padding-left: 1.2em; 
+}
+
+.poster {
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+
+#Arrow {
+    position: absolute;
+    top: 10%; /* starting position */
+    left: -110px;
+    transform: rotate(-10deg);
+    background: gold;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    /* Animate its vertical movement */
+    animation: slideDown 3s infinite alternate ease-in-out;
+}
+
+/* Vertical sliding of rating */
+@keyframes slideDown {
+    from {
+        top: 10%;
+        transform:rotate(10deg);
+
+    }
+    to {
+        top: 90%;
+        transform: rotate(-10deg);
+    }
+}
+
+img:hover {
+
+    box-shadow: 0 0 5px #02a2b8, 0 0 10px #02a2b8, 0 0 15px #043d91;
+}
+
+
+
