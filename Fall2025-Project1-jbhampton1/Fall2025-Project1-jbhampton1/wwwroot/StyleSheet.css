@@ -61,5 +61,38 @@ img:hover {
     box-shadow: 0 0 5px #02a2b8, 0 0 10px #02a2b8, 0 0 15px #043d91;
 }
 
+#Director {
+    color: antiquewhite;
+    font-family: 'Goudy Stout';
+    font: lighter;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+#extraRating {
+    position: absolute;
+    top: 10%; /* starting position */
+    right: -110px;
+    transform: rotate(10deg);
+    background: lightblue;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+#Description {
+    position: absolute;
+    bottom: 10%; /* starting position */
+    right: -110px;
+    transform: rotate(-10deg);
+    background: lightgreen;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
 
 
